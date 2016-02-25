@@ -1,18 +1,9 @@
-<div class="home-main">  
-  
-  <a id="simple-menu" href="#sidr" ><img alt="Open" class="icon-menu" src="http://s215156187.onlinehome.us/assests/menu-white.svg" width="24px" /></a>
-
-<div id="sidr">
-  <ul>
-    <li><%= link_to 'Home', "/" %></li>
-    <!--<li><a href="#">Home</a></li>-->
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</div>
-
-<div class="container"> <div class="row"> <div class="content col-md-6 col-md-offset-6"> <h1>Modern Photo Hosting</h1> <p><a class="btn btn-primary" href="about">Learn more</a></p> </div> </div> </div> </div> 
+<div class="home-main"> 
+<div class="container"> <div class="row"> <div class="content col-md-6 col-md-offset-6"> <h1>Modern Photo Hosting</h1> <p><!--<a class="btn btn-primary" href="about">Learn more</a>--> 
+  <li class="btn btn-primary" <%= link_to 'About', "about" %>  </li>
+  </p> </div> </div> </div> </div> 
 	<div class="home-supporting"> <div class="container"> <h2>Choose your own adventure</h2> <p>Save you photos to  the cloud. Share your travels.</p> </div> </div> 
-	<div class="home-secondary"> <div class="container"> </div> </div> <div class="home-about"> <div class="container"> <h2>Discover Modern Photo Hosting</h2> <p><a class="btn btn-primary" href="about">Learn more</a></p> </div> </div> 
+	<div class="home-secondary"> <div class="container"> </div> </div> <div class="home-about"> <div class="container"> <h2>Discover Modern Photo Hosting</h2> <p>
+    <li class="btn btn-primary" <%= link_to 'Learn more', "about" %> </li>
 
-<div class="footer"> <div class="container"> <p>Picture Stories, Inc. </p> </div> </div> 
+    </p> </div> </div> 
